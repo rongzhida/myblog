@@ -4,9 +4,14 @@ baseURL = "/"
 # theme
 theme = "dot"
 # site title
-title = "Dot"
+title = "我的站点"
 # desable language
 disableLanguages = []
+
+# google analytis
+googleAnalytics = "UA-161794840-1"
+enableGoogleAnalytics = true
+enableBaiduAnalytics = false
 
 [markup.goldmark.renderer]
 unsafe= true
@@ -68,11 +73,6 @@ font_family = "lato" # Choose font family from : https://fonts.google.com/
 
 # contact form action
 contact_form_action = "#" # contact form works with : https://formspree.io
-
-# google analytis
-googleAnalytics = "UA-161794840-1"
-enableGoogleAnalytics = true
-enableBaiduAnalytics = false
 
 ############################## social links ##############################
 [[params.social]]
